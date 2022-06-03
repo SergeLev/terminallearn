@@ -5,3 +5,6 @@ czxca
 acaa
 ## aslkjlkj
 kk
+git
+commit 
+push
