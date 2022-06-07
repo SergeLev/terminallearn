@@ -1,6 +1,6 @@
 .round {
-    border-radius: 250px; /* Радиус скругления */
-    box-shadow: 0 0 0 2px rgb(20, 76, 119), 0 0 13px #333; /* Параметры теней */
+    border-radius: 250px;
+    box-shadow: 0 0 0 2px rgb(20, 76, 119), 0 0 13px #333;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,3 +17,9 @@ body {background-color: rgb(194, 203, 211);}
 .codeexample {
     background-color: rgb(202, 211, 219);
 }
+.growimg {
+    transition: 2s; 
+   }
+   .growimg:hover {
+    transform: scale(3.5); 
+   }
