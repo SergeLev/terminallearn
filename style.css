@@ -1,11 +1,16 @@
 .round {
     border-radius: 250px; /* Радиус скругления */
     box-shadow: 0 0 0 2px rgb(20, 76, 119), 0 0 13px #333; /* Параметры теней */
-   }
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    }
 .text {
     color: rgb(255, 0, 0);
 }
 .h1 {
     color: rgb(19, 19, 81);
+    text-align: center;
 }
 body {background-color: rgb(194, 203, 211);}
