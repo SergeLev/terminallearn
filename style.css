@@ -7,10 +7,13 @@
     width: 30%;
     }
 .text {
-    color: rgb(255, 0, 0);
+    color: rgb(56, 32, 76);
 }
 .h1 {
     color: rgb(19, 19, 81);
     text-align: center;
 }
 body {background-color: rgb(194, 203, 211);}
+.codeexample {
+    background-color: rgb(202, 211, 219);
+}
