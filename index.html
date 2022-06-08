@@ -5,59 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <title>CV3 cross-check</title>
 </head>
 <body>
     <h1 class="h1">Levashov Sergey</h1> 
     <img src="/img/myphoto.jpg" alt="My photo" class="round">
-    <h2 class="text"> <marquee behavior="scroll" direction="left">Junior Frontend Developer(in progress)</marquee></h2>
+    <h2 class="text">Junior Frontend Developer(in progress)</h2>
     <h3>Contact information:</h3>
-        <b> Phone number: </b> <a href=tel: +375296222655> +375(29)6222655</a>
-        <b> E-mail: </b> <a href="mailto:klimber37@gmail.com">klimber37@gmail.com</a>  
-        <b> Telegram: </b> @BY_Klimber
-    <h3>About myself:</h3> 
-        <a>     I am 37 years old, I am from Minsk (Belarus).
-        Married, two children (10 & 1 y.o.).
-        I graduated from the institute with a degree in economics-management, but my work at the moment is not related to my education. I have always been interested in the IT field, therefore, having enough free time, I decided to develop in this direction. It is difficult to select tasks on my own and follow the sequence in learning, so I decided to take a course where mentors will help me organize the learning process and pass on their knowledge to me in an orderly manner.
-        Sincerely, SL.</a>
-    <h3>Skills and Proficiency:</h3>
         <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript Basics</li>
-            <li>PHP Basics</li>
-        </ul>
-    <h3>Code example:</h3>
-        <b> Task. </b>
-            <a>Create an empty array.
-            Add numbers from 10 to 20 inclusive.
-            Delete the first element from an array.
-            Add numbers 32, 45, 50 starting from the index 3 to the array.
-            Add number 5 to the beginning of the array.
-            Display the length of the array in the console.</a>
-        <pre class="codeexample">
-            <code>
-                var numArray = []; 
-                for (var i=10; i <= 20; i++) {
-                numArray.push(i);
-                }
-                numArray.shift();
-                numArray.splice(3,0,32,45,50);
-                numArray.unshift(5);
-                console.log(numArray.length); 
-                console.log(numArray);
-            </code>
-        </pre>
-    <h3>Courses:</h3>
-        <ul>
-            <li>iamit.net Web Development Program (incomplete)</li>
-            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-            <li>Codecademy Introduction to JS (in progress)</li>
-        </ul>
-    <h3>Languages:</h3>
-        <ol>
-            <li>English - Intermediate (according to the online test at EFset <a href="www.efset.org"> www.efset.org</a>) <img src="img/EngTestResult.jpg" class="growimg" width="50"></a></li>
-            <li>French - DELF/DALF B1 Certificate</li>
-            <li>Russian - Native</li>
-        </ol>
+            <li class="list"> Phone number: <blockquote>+375296222655</blockquote> </li> 
+            <li class="list"> E-mail: <blockquote><a href="mailto:klimber37@gmail.com">klimber37@gmail.com</a></blockquote></li>   
+            <li class="list"> Telegram: <blockquote>@BY_Klimber</blockquote></li>
+        </ul>    
+    <section>
+        <h3>About myself:</h3> 
+            <p>I am 37 years old, I am from Minsk (Belarus).
+            Married, two children (10 & 1 y.o.).
+            I graduated from the institute with a degree in economics-management, 
+            but my work at the moment is not related to my education. I have always 
+            been interested in the IT field, therefore, having enough free time, 
+            I decided to develop in this direction. It is difficult to select tasks 
+            on my own and follow the sequence in learning, so I decided to take a 
+            course where mentors will help me organize the learning process and 
+            pass on their knowledge to me in an orderly manner.
+            Sincerely, SL.</p>
+        <h3>Skills and Proficiency:</h3>
+            <ul class="list">
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>PHP Basics</li>
+            </ul>
+        <h3>Code example:</h3>
+            <b> Task. </b>
+                <a>Create an empty array.
+                Add numbers from 10 to 20 inclusive.
+                Delete the first element from an array.
+                Add numbers 32, 45, 50 starting from the index 3 to the array.
+                Add number 5 to the beginning of the array.
+                Display the length of the array in the console.</a>
+            <pre class="code_example">
+                <code>
+                    var numArray = []; 
+                    for (var i=10; i &lt;= 20; i++) {
+                    numArray.push(i);
+                    }
+                    numArray.shift();
+                    numArray.splice(3,0,32,45,50);
+                    numArray.unshift(5);
+                    console.log(numArray.length); 
+                    console.log(numArray);
+                </code>
+            </pre>
+        <h3>Courses:</h3>
+            <ul class="list">
+                <li>iamit.net Web Development Program (incomplete)</li>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                <li>Codecademy Introduction to JS (in progress)</li>
+            </ul>
+        <h3>Languages:</h3>
+            <ol class="list">
+                <li>English - Intermediate (according to the online test at EFset <a href="www.efset.org"> www.efset.org</a>) <a class="test-result" href="/">Results screenshot<span><img src="img/EngTestResult.jpg" alt="Test result"></span></a></li>
+                <li>French - DELF/DALF B1 Certificate</li>
+                <li>Russian - Native</li>
+            </ol>
+        </section>
+        <footer class="footer">
+                
+                
+                <p class="minsk-footer"><img src="img/rs_school_js.svg" alt="RSschool" width="50" class="growimg"> <a href="https://rs.school/js/" target="_blank"></a>Minsk-2022<img src="img/logo-github.png" alt="GitHub" width="50" class="growimg"><a href="https://github.com/SergeLev"></a></p>
+        </footer>
 </body>
 </html>
