@@ -16,10 +16,14 @@
 body {background-color: rgb(194, 203, 211);}
 .codeexample {
     background-color: rgb(202, 211, 219);
+    font-weight: bold;
 }
 .growimg {
     transition: 2s; 
    }
    .growimg:hover {
     transform: scale(3.5); 
+   }
+   h2,h3 {
+       text-align:center;
    }
