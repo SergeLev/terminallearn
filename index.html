@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <title>CV3 cross-check</title>
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>cv</title>
 </head>
 <body>
     <header class="header">
-        <a id="go-on-top"></a>
-        <h1 class="h1">Levashov Sergey</h1> 
-        <img src="/assets/img/myphoto.jpg" alt="My photo" class="round">
+        <h1 class="h1" id="go-on-top">Levashov Sergey</h1> 
+        <img src="./assets/img/myphoto.jpg" alt="My photo" class="round">
         <h2 class="text">Junior Frontend Developer(in progress)</h2>
-        <h3>Contact information:</h3>
-            <ul>
+        <h3 id="contact">Contact information:</h3>
+            <ul class="nav-list">
                 <li class="list"> Phone number: <blockquote>+375296222655</blockquote> </li> 
                 <li class="list"> E-mail: <blockquote><a href="mailto:klimber37@gmail.com">klimber37@gmail.com</a></blockquote></li>   
                 <li class="list"> Telegram: <blockquote>@BY_Klimber</blockquote></li>
             </ul>
         <nav class="navigation"> 
             <ul>
-                <li><a href="#bottom">Go to the bottom of page</a></li>
+                <li><a href="#contact">Contact information</a></li>
                 <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills and proficiency</a></li>
+                <li><a href="#code-example">Code example</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#bottom">Links</a></li>
             </ul>
         </nav>
         
     </header>
     <main class="main">
-        <a id="about"></a>
-        <h3>About myself:</h3>
+        <h3 id="about">About me:</h3>
             <p class="about-text">I am 37 years old, I am from Minsk (Belarus).
             Married, two children (10 & 1 y.o.).
             I graduated from the institute with a degree in economics-management, 
@@ -40,14 +44,14 @@
             course where mentors will help me organize the learning process and 
             pass on their knowledge to me in an orderly manner.
             Sincerely, SL.</p>
-        <h3>Skills and Proficiency:</h3>
+        <h3 id="skills">Skills and Proficiency:</h3>
             <ul class="list">
                 <li>HTML5, CSS3</li>
                 <li>JavaScript Basics</li>
                 <li>PHP Basics</li>
             </ul>
-        <h3>Code example:</h3>
-            <b> Task. </b>
+        <h3 id="code-example">Code example:</h3>
+            <b>Task.</b>
                 <a>Create an empty array.
                 Add numbers from 10 to 20 inclusive.
                 Delete the first element from an array.
@@ -67,22 +71,21 @@
                     console.log(numArray);
                 </code>
             </pre>
-        <h3>Courses:</h3>
+        <h3 id="courses">Courses:</h3>
             <ul class="list">
                 <li>iamit.net Web Development Program (incomplete)</li>
                 <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
                 <li>Codecademy Introduction to JS (in progress)</li>
             </ul>
-        <h3>Languages:</h3>
+        <h3 id="languages">Languages:</h3>
             <ol class="list">
                 <li>English - Intermediate (according to the online test at EFset <a href="www.efset.org"> www.efset.org</a>) <a class="test-result" href="/">Results screenshot<span><img src="/assets/img/EngTestResult.jpg" alt="Test result"></span></a></li>
                 <li>French - DELF/DALF B1 Certificate</li>
                 <li>Russian - Native</li>
             </ol>
     </main>
-    <footer class="footer">
-        <nav><a href="https://rs.school/js/"><img src="/assets/svg/rs_school_js.svg" alt="RSschool" width="80" class="growing"></a> | <a href="https://www.facebook.com/profile.php?id=100003845877761"><img src="/assets/svg/facebook.png" alt="Facebook" width="50" class="growing"></a> | <a href="https://github.com/SergeLev"><img src="/assets/svg/logo-github.png" alt="GitHub" width="80" class="growing"></a></nav>
-        <a id="bottom"></a>
+    <footer class="footer" id="bottom">
+        <nav><a href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg" alt="RSschool" width="80" class="growing"></a> | <a href="https://www.facebook.com/profile.php?id=100003845877761"><img src="./assets/svg/facebook.png" alt="Facebook" width="50" class="growing"></a> | <a href="https://github.com/SergeLev"><img src="./assets/svg/logo-github.png" alt="GitHub" width="80" class="growing"></a></nav>
         <p class="minsk-footer">Minsk-2022</p>
         <a href="#go-on-top">Return on the top</a>
     </footer>
