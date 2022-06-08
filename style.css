@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(156, 166, 174);
+    background-color: rgb(123, 131, 137);
 }
 
 .round {
     border-radius: 250px;
-    box-shadow: 0 0 0 2px rgb(103, 172, 225), 0 0 13px #333;
+    box-shadow: 0 0 0 2px rgb(176, 184, 192), 0 0 13px #333;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -17,26 +17,38 @@ body {
     font-weight: bolder;
 }
 
+.navigation {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.about-text { 
+    text-indent: 2em; 
+    text-align: justify; 
+}
+
 .h1 {
     color: rgb(19, 19, 81);
 }
 
 .code_example {
-    background-color: rgb(196, 203, 210);
+    background-color: rgb(176, 184, 192);
     font-weight: bold;
 }
 
-.growimg {
-    transition: 2s; 
+.growing {
+    transition: 1.5s; 
    }
 
-.growimg:hover {
+.growing:hover {
     transform: scale(3.5); 
 }
 
 h1,
 h2,
-h3 {
+h3,
+.footer {
        text-align:center;
 }
 
@@ -45,23 +57,24 @@ h3 {
     font-weight: bold;
 }
 
+.header,
+.main,
 .footer {
-    display: block;
-    -webkit-box-direction: normal;
-    cursor: pointer;
+    background-color: rgb(176, 184, 192);
+    border-radius: 10px;
 }
 
 .test-result span{
-    border-radius: 5px 5px 5px 5px;
     visibility: hidden;
     position: absolute;
     top: 1200px;
-    border-radius: 5px;
 }
 
 .test-result:hover span{
-visibility: visible;
+    visibility: visible;
+
 }
+
 .minsk-footer {
     text-align: center;
     font-size: larger;
